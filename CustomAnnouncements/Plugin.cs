@@ -26,6 +26,7 @@ namespace CustomAnnouncements
             Exiled.Events.Handlers.Map.AnnouncingScpTermination += OnAnnouncingScpTermination;
             Exiled.Events.Handlers.Map.GeneratorActivated += OnGeneratorActivated;
         }
+        //Don't look any further, there's a Cringe Code
         public override void OnDisabled()
         {
             plugin = null;
