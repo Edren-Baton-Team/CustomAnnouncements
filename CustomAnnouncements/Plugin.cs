@@ -89,13 +89,13 @@ namespace CustomAnnouncements
                         {
                             Cassie.Clear();
                             if (count == 1 && !glitch)
-                                Cassie.Message(cfg.CassieScp.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", "")}"), isSubtitles: cfg.Subtitles);
+                                Cassie.Message(cfg.CassieScp.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", " ")}"), isSubtitles: cfg.Subtitles);
                             else if (count != 1 && !glitch)
-                                Cassie.Message(cfg.CassieScps.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", "")}"), isSubtitles: cfg.Subtitles);
+                                Cassie.Message(cfg.CassieScps.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", " ")}"), isSubtitles: cfg.Subtitles);
                             else if (glitch && s079 && count == 1)
-                                Cassie.Message(cfg.GlitchCassieScp.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", "")}"), isSubtitles: cfg.isSubtitlesGlitch);
+                                Cassie.Message(cfg.GlitchCassieScp.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", " ")}"), isSubtitles: cfg.isSubtitlesGlitch);
                             else if (glitch && s079 && count != 1)
-                                Cassie.Message(cfg.GlitchCassieScps.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", "")}"), isSubtitles: cfg.isSubtitlesGlitch);
+                                Cassie.Message(cfg.GlitchCassieScps.Replace("%playerspawn%", $"{ev.Players.Count}").Replace("%count%", $"{count}").Replace("%unitname%", $"{ply.UnitName.Replace("-", " ")}"), isSubtitles: cfg.isSubtitlesGlitch);
                         }
                     });
                 }
