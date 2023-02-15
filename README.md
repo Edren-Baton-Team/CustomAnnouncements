@@ -18,7 +18,6 @@ Plugin to change default CASSIE lines when certain event happens.
 - NineTailedFox
 - ChaosInsurgency
 ```
-```
 
 **Variables in cfg:**
 ```md
