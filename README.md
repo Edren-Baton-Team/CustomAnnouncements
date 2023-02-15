@@ -1,6 +1,38 @@
 # CustomAnnouncements
 Plugin to change default CASSIE lines when certain event happens. 
 
+**s_c_p (RoleTypeId):**
+
+```md
+- Scp939
+- Scp173
+- Scp106
+- Scp096
+- Scp079
+- Scp049
+```
+
+**team (SpawnableTeamType):**
+
+```md
+- NineTailedFox
+- ChaosInsurgency
+```
+```
+
+**Variables in cfg:**
+```md
+Team:
+- %playerspawn% - Outputs the number of players that have been spawned
+- %count% - Outputs the number of SCP
+- %unitname% - Outputs UnitName spawned MTF
+ScpTermination:
+- %attacker% - Outputs who killed SCP
+GeneratorActivated:
+- %count% - Outputs the number of generators turned on
+```
+
+# Default Config:
 ```yml
 CustomAnnouncements:
   is_enabled: true
