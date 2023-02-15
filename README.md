@@ -1,6 +1,8 @@
 # CustomAnnouncements
 Plugin to change default CASSIE lines when certain event happens. 
 
+**CONFIGURE PLUGIN FIRST!!! (IF THE FIELD IS EMPTY, THE CASSIE WILL NOT PLAY)**
+
 **s_c_p (RoleTypeId):**
 
 ```md
